@@ -42,7 +42,7 @@ main {
 #section-1 img {
   height: 12rem;
   margin-top: 2rem;
-  width: 21rem;
+  width: 18rem;
   object-fit: cover;
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -65,7 +65,7 @@ main {
 
 #section-2 button {
   padding: 0.5rem 1.5rem;
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(19, 19, 19);
   border: none;
   color: white;
   font-size: 1rem;
@@ -97,7 +97,7 @@ main {
 
 .text {
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   word-spacing: 0.2rem;
@@ -117,22 +117,22 @@ main {
 } */
 
 video {
-  width: 22rem;
-  height: 14rem;
+  width: 18rem;
+  height: 12rem;
   object-fit: cover;
-
+  margin-bottom: 1.2rem;
   border-radius: 1.5rem;
 }
 
 .video-sec h4 {
-  font-size: 1.7rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
 }
 
 .video-sec h5 {
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -179,7 +179,7 @@ video {
 
 #section-4 button {
   padding: 0.5rem 1.5rem;
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(19, 19, 19);
   color: white;
   font-size: 1rem;
   font-weight: 500;
@@ -204,25 +204,29 @@ video {
   width: 4rem;
   object-fit: cover;
 }
-.fayla h2{
-  font-size:1.6rem;
+
+.fayla h2 {
+  font-size: 1.6rem;
   font-weight: 400;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
 }
-#section-5 p{
+
+#section-5 p {
   font-size: 1.1rem;
   text-transform: capitalize;
- 
+
 }
-.circles{
+
+.circles {
   display: flex;
   margin-top: 2rem;
-align-items: center;
-gap: 0.7rem;
-margin-bottom: 2rem;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
 }
-.circle{
+
+.circle {
   height: 2.5rem;
   width: 2.5rem;
   padding: 0.5rem;
@@ -230,26 +234,30 @@ margin-bottom: 2rem;
   border-radius: 50%;
   border: 1px solid black;
 }
-.pages h2{
-  font-size:1.7rem;
+
+.pages h2 {
+  font-size: 1.7rem;
   font-weight: 400;
   margin-bottom: 2rem;
 }
-.footer-a{
+
+.footer-a {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
   gap: 1rem;
 }
+
 .footer-a a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-font-size: 1rem;
+  font-size: 1rem;
 }
-.pages button{
+
+.pages button {
   padding: 0.5rem 1.5rem;
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(19, 19, 19);
   color: white;
   font-size: 1rem;
   font-weight: 500;
@@ -260,20 +268,23 @@ font-size: 1rem;
   border: none;
   margin-left: 1rem;
 }
-.line-3{
+
+.line-3 {
   margin-top: 1rem;
   border-bottom: 1px solid rgb(44, 44, 44);
   margin-bottom: 1rem;
 }
-#section-5 .privacy{
-display: flex;
-flex-direction: column;
-gap: 0.5rem;
-align-items: center;
+
+#section-5 .privacy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
 }
-.privacy h6{
-  font-size: 1.1rem;
+
+.privacy h6 {
+  font-size: 1rem;
   word-spacing: 0.2rem;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: capitalize;
 }
